@@ -14,10 +14,11 @@ if (level==1) {
 	var ArtifactsTrackCFP="cfp/ArtifactsTrackCFP.html";
 	var CallForJournalFirstPresentation="cfp/CallForJournalFirstPresentation.html";
 	var procommitteeurl = "ProgramCommittee.html";
+	var externalreviewers = "subreviewers.html"
 	var wheretostay = "travel/wheretostay.html";
-    var tourism = "travel/tourism.html";
-    var weather = "travel/weather.html";
-    var soccertickets = "travel/soccertickets.html";
+  var tourism = "travel/tourism.html";
+  var weather = "travel/weather.html";
+  var soccertickets = "travel/soccertickets.html";
 	var staysafe = "travel/safety.html";
 	var travelvisaurl = "travel/visareq.html";
 	var roomsharingurl = "travel/roomsharing.html";
@@ -29,19 +30,19 @@ if (level==1) {
 	var Registrationurl = "registration.html";
 	var awardommitteeurl = "AwardCommittee.html";
 
-    var conduct = "social/CodeOfConduct.html";
-    var escorialurl = "social/Escorial.html";
+  var conduct = "social/CodeOfConduct.html";
+  var escorialurl = "social/Escorial.html";
 	var prereceptionurl = "social/Prereception.html";
 	var coffeebreakurl = "social/CoffeeBreak.html";
-    var lunchurl = "social/Lunch.html";
-    var sportsurl = "social/Sports.html";
+  var lunchurl = "social/Lunch.html";
+  var sportsurl = "social/Sports.html";
 	var LGBT = "social/LGBT.html";
-    var banquet = "social/Banquet.html";
-    var reception = "social/Reception.html";
-    var afterparty = "social/AfterParty.html";
+  var banquet = "social/Banquet.html";
+  var reception = "social/Reception.html";
+  var afterparty = "social/AfterParty.html";
 	var Scheduleurl = "program/schedule.html";
 	var Sessionsurl = "program/SessionList.html";
-    var awards = "program/Awards.html";
+	var awards = "program/Awards.html";
 
 /*
     var DoctoralSymposiumurl = "program/DoctoralSymposium.html";
@@ -61,25 +62,26 @@ else if (level>=2) {
 	var ArtifactsTrackCFP="../cfp/ArtifactsTrackCFP.html";
 	var CallForJournalFirstPresentation="../cfp/CallForJournalFirstPresentation.html";
 
-    var procommitteeurl = "../ProgramCommittee.html"
+  var procommitteeurl = "../ProgramCommittee.html"
 	var PaperAccepted = "../program/Accepted.html";
 	var Programurl = "../ToBeAnnounced.html";
 	var keynotes = "../program/Keynotes.html";
 	var studentvoluntee = "../cfp/StudentVolunteerCall.html"
+	var externalreviewers = "../subreviewers.html"
 
 	var Registrationurl = "../registration.html";
 	var awardommitteeurl = "../AwardCommittee.html";
 
-    var conduct = "../social/CodeOfConduct.html";
+  var conduct = "../social/CodeOfConduct.html";
 	var escorialurl = "../social/Escorial.html";
-    var prereceptionurl = "../social/Prereception.html";
+  var prereceptionurl = "../social/Prereception.html";
 	var coffeebreakurl = "../social/CoffeeBreak.html";
-    var lunchurl = "../social/Lunch.html";
-    var sportsurl = "../social/Sports.html";
+  var lunchurl = "../social/Lunch.html";
+  var sportsurl = "../social/Sports.html";
 	var LGBT = "../social/LGBT.html";
-    var banquet = "../social/Banquet.html";
-    var reception = "../social/Reception.html";
-    var afterparty = "../social/AfterParty.html";
+  var banquet = "../social/Banquet.html";
+  var reception = "../social/Reception.html";
+  var afterparty = "../social/AfterParty.html";
 	var Scheduleurl = "../program/schedule.html";
 	var Sessionsurl = "../program/SessionList.html";
 	var awards = "../program/Awards.html";
@@ -88,11 +90,11 @@ else if (level>=2) {
     var DoctoralSymposiumurl = "../program/DoctoralSymposium.html";
 */
 
-    var wheretostay = "../travel/wheretostay.html";
-    var tourism = "../travel/tourism.html";
+  var wheretostay = "../travel/wheretostay.html";
+  var tourism = "../travel/tourism.html";
 	var staysafe = "../travel/safety.html";
-    var weather = "../travel/weather.html";
-    var soccertickets = "../travel/soccertickets.html";
+  var weather = "../travel/weather.html";
+  var soccertickets = "../travel/soccertickets.html";
 	var travelvisaurl = "../travel/visareq.html";
 	var roomsharingurl = "../travel/roomsharing.html";
 }
@@ -160,6 +162,7 @@ li_team.find('ul').append('<li><a href="'+orgcommitteeurl+'">Organizing Committe
 li_team.find('ul').append('<li><a href="'+procommitteeurl+'">Program Committee</a></li>');
 li_team.find('ul').append('<li><a href="'+studentvoluntee+'">Student Volunteers</a></li>');
 li_team.find('ul').append('<li><a href="'+awardommitteeurl+'">Award Committee</a></li>');
+li_team.find('ul').append('<li><a href="'+externalreviewers+'">External Reviewers</a></li>');
 navbarcollapseul.append(li_team);
 
 var li_travel = $('<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Venue &amp; Travel<span class="caret"></span></a><ul class="dropdown-menu" role="menu"></ul></li>');
