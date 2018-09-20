@@ -43,6 +43,7 @@ if (level==1) {
 	var Scheduleurl = "program/schedule.html";
 	var Sessionsurl = "program/SessionList.html";
 	var awards = "program/Awards.html";
+    var yearbook = "https://gsyc.urjc.es/~grex/2018-ICSME-Confbook.pdf";
 
 /*
     var DoctoralSymposiumurl = "program/DoctoralSymposium.html";
@@ -85,7 +86,8 @@ else if (level>=2) {
 	var Scheduleurl = "../program/schedule.html";
 	var Sessionsurl = "../program/SessionList.html";
 	var awards = "../program/Awards.html";
-
+    var yearbook = "https://gsyc.urjc.es/~grex/2018-ICSME-Confbook.pdf";
+    
 /*
     var DoctoralSymposiumurl = "../program/DoctoralSymposium.html";
 */
@@ -154,6 +156,7 @@ li_socialevents.find('ul').append('<li><a href="'+lunchurl  +'">Lunches</a></li>
 li_socialevents.find('ul').append('<li><a href="'+sportsurl+'">Sports</a></li>');
 li_socialevents.find('ul').append('<li><a href="'+LGBT+'">LGBT@SoftEng Lunch</a></li>');
 li_socialevents.find('ul').append('<li><a href="'+escorialurl+'">Cultural Visit</a></li>');
+li_socialevents.find('ul').append('<li><a href="'+yearbook+'">Conference Yearbook</a></li>');
 navbarcollapseul.append(li_socialevents);
 
 var li_team = $('<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">Team<span class="caret"></span></a><ul class="dropdown-menu" role="menu"></ul></li>');
